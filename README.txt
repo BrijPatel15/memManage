@@ -76,9 +76,9 @@ After running "make", run
 You can also use "make test" and "make stage1-test" for testing.  "make
 stage1-test" only runs the tests relevant to stage 1.
 
-As in previous assignments, running "mem -test -f0 ..." will allow tests 
-to run even after previous tests have failed.  Similarly, using "all" for 
-a test or strategy name runs all of the tests or strategies.  Note that 
+As in previous assignments, running "mem -test -f0 ..." will allow tests
+to run even after previous tests have failed.  Similarly, using "all" for
+a test or strategy name runs all of the tests or strategies.  Note that
 if "all" is selected as the strategy, the 4 tests are shown as one.
 
 One of the tests, "stress", runs an assortment of randomized tests on each
@@ -112,7 +112,13 @@ Questions
 1) Why is it so important that adjacent free blocks not be left as such?  What
 would happen if they were permitted?
 
+  To avoid fragmentation, because it is harder to fill small holes rather than just combining them
+  into one big hole which makes it easier for them to get filled
+
 2) Which function(s) need to be concerned about adjacent free blocks?
+
+  The function mymalloc needs to be concerned about the adjacent free blocks because this function
+  holds the logic of where memory gets allocated.
 
 3) Name one advantage of each strategy.
 
@@ -142,4 +148,3 @@ why this/these and not others.
 10) Give one advantage of implementing memory management using a linked list
 over a bit array, where every bit tells whether its corresponding byte is
 allocated.
-
