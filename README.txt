@@ -118,9 +118,18 @@ would happen if they were permitted?
 2) Which function(s) need to be concerned about adjacent free blocks?
 
   The function mymalloc needs to be concerned about the adjacent free blocks because this function
-  holds the logic of where memory gets allocated.
+  holds the logic of where memory gets allocated. The function free also needs to worry about adjacent free
+  blocks as well so when it frees a memory location it can combine them together to make a larger hole.
 
 3) Name one advantage of each strategy.
+  First-fit is the fastest strategy because it finds the first possible block where the allocation can
+  happen and inserts it there.
+  Best-fit finds a memory location that is the best fit for the allocation, that means that you have to
+  worry less about leaving large holes between two memory locations and the larger allocations have enough
+  spaces to fit in.
+  Worst-fit selects the largest possible block for the allocation to happen, this means that you don't leave
+  behind small holes that are too small to fit anything in them.
+  Next-fit is the second fastest algorithm because it tries to insert after last position it allocated to before
 
 4) Run the stress test on all strategies, and look at the results (tests.out).
 What is the significance of "Average largest free block"?  Which strategy
