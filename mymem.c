@@ -13,7 +13,7 @@
 struct memoryList
 {
   // doubly-linked list
-  struct memoryList *last;
+  struct memoryList *prev;
   struct memoryList *next;
 
   int size;            // How many bytes in this block?
@@ -74,7 +74,7 @@ void initmem(strategies strategy, size_t sz)
   head->alloc = 0;
   head->ptr = myMemory;
   next = head;
-  head->last = head;
+  head->prev = head;
   head->next = head;
 
 }
@@ -151,8 +151,8 @@ struct memoryList *ptrNext;
       struct memoryList *newMemBlock = malloc(sizeof(struct memoryList));
       /*Added new memBlock after the existing memBlock*/
       newMemBlock->next = memBlock->next;
-      newMemBlock->next->last = newMemBlock;
-      newMemBlock->last = memBlock;
+      newMemBlock->next->prev = newMemBlock;
+      newMemBlock->prev = memBlock;
       memBlock->next = newMemBlock;
       newMemBlock->size = memBlock->size - requested;
       newMemBlock->alloc = 0;
@@ -180,10 +180,10 @@ void myfree(void* block)
   }while((ptrHead = ptrHead->next) != head);
 
   ptrHead->alloc = 0;
-  if(ptrHead != head && ptrHead->last->alloc == 0){
-    struct memoryList* temp = ptrHead->last;
+  if(ptrHead != head && ptrHead->prev->alloc == 0){
+    struct memoryList* temp = ptrHead->prev;
     temp->next = ptrHead->next;
-    temp->next->last = temp;
+    temp->next->prev = temp;
     temp->size = temp->size + ptrHead->size;
     if(next == ptrHead){
       next = temp;
@@ -194,7 +194,7 @@ void myfree(void* block)
   if(ptrHead->next != head && !(ptrHead->next->alloc)){
     struct memoryList* temp2 = ptrHead->next;
     ptrHead->next = temp2->next;
-    ptrHead->next->last = ptrHead;
+    ptrHead->next->prev = ptrHead;
     ptrHead->size = ptrHead->size + temp2->size;
     if(next == temp2){
       next = ptrHead;

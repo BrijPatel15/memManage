@@ -1,493 +1,493 @@
 Running randomized tests: pool size == 10000, fill ratio == 0.250000, block size is from 1 to 1000, 10000 iterations
 	=== best ===
-	Test took 4.17ms.
-	Average hole size: 2352.381400
-	Average largest free block: 6377.801800
-	Average allocated bytes: 2511.093600
-	Average number of small blocks: 0.566900
+	Test took 8.40ms.
+	Average hole size: 2347.965400
+	Average largest free block: 6364.303700
+	Average allocated bytes: 2514.692200
+	Average number of small blocks: 0.524600
 	Failed allocations: 0
 	=== worst ===
-	Test took 4.20ms.
-	Average hole size: 2224.707000
-	Average largest free block: 3611.229000
-	Average allocated bytes: 2511.093600
-	Average number of small blocks: 0.118400
+	Test took 3.31ms.
+	Average hole size: 2251.085400
+	Average largest free block: 3639.979900
+	Average allocated bytes: 2514.692200
+	Average number of small blocks: 0.116900
 	Failed allocations: 0
 	=== first ===
-	Test took 4.09ms.
-	Average hole size: 2324.893200
-	Average largest free block: 6363.964800
-	Average allocated bytes: 2511.093600
-	Average number of small blocks: 0.519300
+	Test took 3.20ms.
+	Average hole size: 2343.412800
+	Average largest free block: 6364.755700
+	Average allocated bytes: 2514.692200
+	Average number of small blocks: 0.502200
 	Failed allocations: 0
 	=== next ===
-	Test took 3.77ms.
-	Average hole size: 2160.797300
-	Average largest free block: 4545.729900
-	Average allocated bytes: 2474.365700
-	Average number of small blocks: 0.133200
-	Failed allocations: 190
+	Test took 3.39ms.
+	Average hole size: 2171.472900
+	Average largest free block: 4542.380500
+	Average allocated bytes: 2480.641100
+	Average number of small blocks: 0.140000
+	Failed allocations: 189
 Running randomized tests: pool size == 10000, fill ratio == 0.250000, block size is from 1 to 2000, 10000 iterations
 	=== best ===
-	Test took 1.59ms.
-	Average hole size: 3845.619500
-	Average largest free block: 6289.606500
-	Average allocated bytes: 2569.848900
-	Average number of small blocks: 0.195300
+	Test took 1.62ms.
+	Average hole size: 3828.743900
+	Average largest free block: 6289.038500
+	Average allocated bytes: 2563.149900
+	Average number of small blocks: 0.212200
 	Failed allocations: 0
 	=== worst ===
-	Test took 1.59ms.
-	Average hole size: 3635.726600
-	Average largest free block: 4860.279100
-	Average allocated bytes: 2569.848900
-	Average number of small blocks: 0.061000
+	Test took 1.63ms.
+	Average hole size: 3567.912700
+	Average largest free block: 4858.889000
+	Average allocated bytes: 2563.149900
+	Average number of small blocks: 0.075100
 	Failed allocations: 0
 	=== first ===
-	Test took 1.49ms.
-	Average hole size: 3896.167400
-	Average largest free block: 6302.095600
-	Average allocated bytes: 2569.848900
-	Average number of small blocks: 0.174100
+	Test took 1.52ms.
+	Average hole size: 3825.725200
+	Average largest free block: 6273.809200
+	Average allocated bytes: 2563.149900
+	Average number of small blocks: 0.201500
 	Failed allocations: 0
 	=== next ===
-	Test took 2.11ms.
-	Average hole size: 3525.385700
-	Average largest free block: 5421.116300
-	Average allocated bytes: 2447.944900
-	Average number of small blocks: 0.103100
-	Failed allocations: 295
+	Test took 1.94ms.
+	Average hole size: 3546.601900
+	Average largest free block: 5469.857000
+	Average allocated bytes: 2446.848300
+	Average number of small blocks: 0.114900
+	Failed allocations: 301
 Running randomized tests: pool size == 10000, fill ratio == 0.250000, block size is from 1000 to 2000, 10000 iterations
 	=== best ===
-	Test took 0.93ms.
-	Average hole size: 5164.448900
-	Average largest free block: 6608.482400
-	Average allocated bytes: 2447.841900
-	Average number of small blocks: 0.039200
+	Test took 0.88ms.
+	Average hole size: 5138.908000
+	Average largest free block: 6586.437400
+	Average allocated bytes: 2452.959500
+	Average number of small blocks: 0.037000
 	Failed allocations: 0
 	=== worst ===
-	Test took 0.92ms.
-	Average hole size: 4578.393700
-	Average largest free block: 5471.685200
-	Average allocated bytes: 2447.841900
+	Test took 0.96ms.
+	Average hole size: 4627.680500
+	Average largest free block: 5507.313400
+	Average allocated bytes: 2452.959500
 	Average number of small blocks: 0.000000
 	Failed allocations: 0
 	=== first ===
-	Test took 0.89ms.
-	Average hole size: 5171.541000
-	Average largest free block: 6609.961500
-	Average allocated bytes: 2447.841900
-	Average number of small blocks: 0.039400
+	Test took 0.94ms.
+	Average hole size: 5145.878400
+	Average largest free block: 6585.626900
+	Average allocated bytes: 2452.959500
+	Average number of small blocks: 0.036900
 	Failed allocations: 0
 	=== next ===
-	Test took 1.46ms.
-	Average hole size: 4596.496100
-	Average largest free block: 5982.894900
-	Average allocated bytes: 2288.173600
-	Average number of small blocks: 0.013200
-	Failed allocations: 422
+	Test took 1.62ms.
+	Average hole size: 4639.470200
+	Average largest free block: 6022.988000
+	Average allocated bytes: 2271.813800
+	Average number of small blocks: 0.018600
+	Failed allocations: 431
 Running randomized tests: pool size == 10000, fill ratio == 0.250000, block size is from 1 to 3000, 10000 iterations
 	=== best ===
-	Test took 1.25ms.
-	Average hole size: 4901.369200
-	Average largest free block: 6509.490000
-	Average allocated bytes: 2561.204700
-	Average number of small blocks: 0.143200
+	Test took 1.55ms.
+	Average hole size: 5014.079700
+	Average largest free block: 6520.051100
+	Average allocated bytes: 2576.245500
+	Average number of small blocks: 0.117700
 	Failed allocations: 0
 	=== worst ===
-	Test took 1.21ms.
-	Average hole size: 4727.268700
-	Average largest free block: 5772.109200
-	Average allocated bytes: 2574.496400
-	Average number of small blocks: 0.062600
-	Failed allocations: 1
-	=== first ===
 	Test took 1.36ms.
-	Average hole size: 4931.264400
-	Average largest free block: 6519.698400
-	Average allocated bytes: 2561.204700
-	Average number of small blocks: 0.141600
+	Average hole size: 4671.212200
+	Average largest free block: 5711.181600
+	Average allocated bytes: 2576.245500
+	Average number of small blocks: 0.052300
+	Failed allocations: 0
+	=== first ===
+	Test took 1.27ms.
+	Average hole size: 5039.773900
+	Average largest free block: 6528.880300
+	Average allocated bytes: 2576.245500
+	Average number of small blocks: 0.118100
+	Failed allocations: 0
+	=== next ===
+	Test took 1.59ms.
+	Average hole size: 4648.951400
+	Average largest free block: 5936.075400
+	Average allocated bytes: 2450.184100
+	Average number of small blocks: 0.061100
+	Failed allocations: 228
+Running randomized tests: pool size == 10000, fill ratio == 0.250000, block size is from 1 to 4000, 10000 iterations
+	=== best ===
+	Test took 1.39ms.
+	Average hole size: 5653.172600
+	Average largest free block: 6700.603000
+	Average allocated bytes: 2589.202800
+	Average number of small blocks: 0.094100
+	Failed allocations: 0
+	=== worst ===
+	Test took 1.24ms.
+	Average hole size: 5447.662100
+	Average largest free block: 6294.073000
+	Average allocated bytes: 2580.212000
+	Average number of small blocks: 0.053200
+	Failed allocations: 6
+	=== first ===
+	Test took 1.18ms.
+	Average hole size: 5662.271000
+	Average largest free block: 6701.169000
+	Average allocated bytes: 2589.202800
+	Average number of small blocks: 0.092200
 	Failed allocations: 0
 	=== next ===
 	Test took 1.46ms.
-	Average hole size: 4565.977300
-	Average largest free block: 5930.945400
-	Average allocated bytes: 2454.053500
-	Average number of small blocks: 0.077700
-	Failed allocations: 229
-Running randomized tests: pool size == 10000, fill ratio == 0.250000, block size is from 1 to 4000, 10000 iterations
-	=== best ===
-	Test took 1.05ms.
-	Average hole size: 5682.133500
-	Average largest free block: 6711.455000
-	Average allocated bytes: 2582.304200
-	Average number of small blocks: 0.090600
-	Failed allocations: 1
-	=== worst ===
-	Test took 1.33ms.
-	Average hole size: 5458.801600
-	Average largest free block: 6319.320900
-	Average allocated bytes: 2573.882500
-	Average number of small blocks: 0.058400
-	Failed allocations: 6
-	=== first ===
-	Test took 1.00ms.
-	Average hole size: 5693.010500
-	Average largest free block: 6718.005700
-	Average allocated bytes: 2582.304200
-	Average number of small blocks: 0.088900
-	Failed allocations: 1
-	=== next ===
-	Test took 1.18ms.
-	Average hole size: 5484.711400
-	Average largest free block: 6414.316100
-	Average allocated bytes: 2523.975300
-	Average number of small blocks: 0.063600
-	Failed allocations: 109
+	Average hole size: 5479.002700
+	Average largest free block: 6385.192300
+	Average allocated bytes: 2508.538700
+	Average number of small blocks: 0.052600
+	Failed allocations: 128
 Running randomized tests: pool size == 10000, fill ratio == 0.250000, block size is from 1 to 5000, 10000 iterations
 	=== best ===
-	Test took 1.03ms.
-	Average hole size: 6024.272500
-	Average largest free block: 6792.651200
-	Average allocated bytes: 2657.303500
-	Average number of small blocks: 0.080100
-	Failed allocations: 6
-	=== worst ===
-	Test took 1.02ms.
-	Average hole size: 5832.759900
-	Average largest free block: 6509.253700
-	Average allocated bytes: 2644.170000
-	Average number of small blocks: 0.054800
-	Failed allocations: 38
-	=== first ===
 	Test took 0.89ms.
-	Average hole size: 6030.814400
-	Average largest free block: 6792.598900
-	Average allocated bytes: 2657.303500
-	Average number of small blocks: 0.079300
-	Failed allocations: 6
+	Average hole size: 6007.336300
+	Average largest free block: 6797.272000
+	Average allocated bytes: 2653.027200
+	Average number of small blocks: 0.075200
+	Failed allocations: 12
+	=== worst ===
+	Test took 1.06ms.
+	Average hole size: 5878.906600
+	Average largest free block: 6563.621000
+	Average allocated bytes: 2639.329700
+	Average number of small blocks: 0.051400
+	Failed allocations: 33
+	=== first ===
+	Test took 0.99ms.
+	Average hole size: 6013.454800
+	Average largest free block: 6800.695200
+	Average allocated bytes: 2653.027200
+	Average number of small blocks: 0.075400
+	Failed allocations: 12
 	=== next ===
-	Test took 1.02ms.
-	Average hole size: 5914.133400
-	Average largest free block: 6610.169500
-	Average allocated bytes: 2601.162200
-	Average number of small blocks: 0.056300
-	Failed allocations: 91
+	Test took 1.15ms.
+	Average hole size: 5880.550400
+	Average largest free block: 6591.098700
+	Average allocated bytes: 2604.204600
+	Average number of small blocks: 0.053600
+	Failed allocations: 85
 Running randomized tests: pool size == 10000, fill ratio == 0.500000, block size is from 1 to 1000, 10000 iterations
 	=== best ===
-	Test took 5.84ms.
-	Average hole size: 898.104200
-	Average largest free block: 3196.495700
-	Average allocated bytes: 5000.782200
-	Average number of small blocks: 1.521500
+	Test took 5.75ms.
+	Average hole size: 867.236500
+	Average largest free block: 3143.963100
+	Average allocated bytes: 5004.397500
+	Average number of small blocks: 1.621600
 	Failed allocations: 0
 	=== worst ===
-	Test took 5.91ms.
-	Average hole size: 891.296800
-	Average largest free block: 1567.802600
-	Average allocated bytes: 4999.828700
-	Average number of small blocks: 0.276200
-	Failed allocations: 19
+	Test took 6.33ms.
+	Average hole size: 874.849700
+	Average largest free block: 1539.198900
+	Average allocated bytes: 5006.185200
+	Average number of small blocks: 0.255800
+	Failed allocations: 22
 	=== first ===
-	Test took 5.48ms.
-	Average hole size: 881.964800
-	Average largest free block: 3050.501700
-	Average allocated bytes: 5000.782200
-	Average number of small blocks: 1.283000
+	Test took 5.72ms.
+	Average hole size: 869.183900
+	Average largest free block: 2973.969500
+	Average allocated bytes: 5004.397500
+	Average number of small blocks: 1.262200
 	Failed allocations: 0
 	=== next ===
-	Test took 6.92ms.
-	Average hole size: 861.718300
-	Average largest free block: 2017.632800
-	Average allocated bytes: 4937.721700
-	Average number of small blocks: 0.517600
-	Failed allocations: 350
+	Test took 5.79ms.
+	Average hole size: 851.771800
+	Average largest free block: 2026.712900
+	Average allocated bytes: 4949.733600
+	Average number of small blocks: 0.573100
+	Failed allocations: 335
 Running randomized tests: pool size == 10000, fill ratio == 0.500000, block size is from 1 to 2000, 10000 iterations
 	=== best ===
-	Test took 4.23ms.
-	Average hole size: 1567.347000
-	Average largest free block: 3317.849600
-	Average allocated bytes: 5029.336100
-	Average number of small blocks: 0.679800
-	Failed allocations: 9
+	Test took 3.69ms.
+	Average hole size: 1532.027700
+	Average largest free block: 3307.682500
+	Average allocated bytes: 5021.467100
+	Average number of small blocks: 0.726600
+	Failed allocations: 19
 	=== worst ===
-	Test took 4.43ms.
-	Average hole size: 1518.058900
-	Average largest free block: 2415.474900
-	Average allocated bytes: 5001.747600
-	Average number of small blocks: 0.201200
-	Failed allocations: 132
+	Test took 3.70ms.
+	Average hole size: 1523.145800
+	Average largest free block: 2425.450800
+	Average allocated bytes: 4995.366500
+	Average number of small blocks: 0.203300
+	Failed allocations: 137
 	=== first ===
-	Test took 4.17ms.
-	Average hole size: 1598.506000
-	Average largest free block: 3133.170500
-	Average allocated bytes: 5024.569300
-	Average number of small blocks: 0.487100
-	Failed allocations: 17
+	Test took 3.66ms.
+	Average hole size: 1532.518300
+	Average largest free block: 3040.027200
+	Average allocated bytes: 5028.878600
+	Average number of small blocks: 0.522600
+	Failed allocations: 25
 	=== next ===
-	Test took 12.42ms.
-	Average hole size: 1583.267600
-	Average largest free block: 2902.280800
-	Average allocated bytes: 4833.118900
-	Average number of small blocks: 0.336200
-	Failed allocations: 577
+	Test took 4.21ms.
+	Average hole size: 1552.009500
+	Average largest free block: 2870.482300
+	Average allocated bytes: 4828.057600
+	Average number of small blocks: 0.374200
+	Failed allocations: 593
 Running randomized tests: pool size == 10000, fill ratio == 0.500000, block size is from 1000 to 2000, 10000 iterations
 	=== best ===
-	Test took 1.82ms.
-	Average hole size: 2107.208100
-	Average largest free block: 3474.768400
-	Average allocated bytes: 5061.844500
-	Average number of small blocks: 0.227000
-	Failed allocations: 9
+	Test took 1.62ms.
+	Average hole size: 2126.102700
+	Average largest free block: 3504.709500
+	Average allocated bytes: 5072.753500
+	Average number of small blocks: 0.228100
+	Failed allocations: 6
 	=== worst ===
-	Test took 1.61ms.
-	Average hole size: 2057.795900
-	Average largest free block: 2841.076500
-	Average allocated bytes: 5068.309900
-	Average number of small blocks: 0.025500
-	Failed allocations: 40
+	Test took 2.15ms.
+	Average hole size: 2069.936900
+	Average largest free block: 2849.163000
+	Average allocated bytes: 5046.484800
+	Average number of small blocks: 0.025900
+	Failed allocations: 45
 	=== first ===
-	Test took 1.76ms.
-	Average hole size: 2118.396100
-	Average largest free block: 3227.857800
-	Average allocated bytes: 5065.214500
-	Average number of small blocks: 0.152500
-	Failed allocations: 21
+	Test took 2.20ms.
+	Average hole size: 2108.287500
+	Average largest free block: 3238.313200
+	Average allocated bytes: 5068.707800
+	Average number of small blocks: 0.168700
+	Failed allocations: 14
 	=== next ===
-	Test took 2.41ms.
-	Average hole size: 2225.910900
-	Average largest free block: 3434.045600
-	Average allocated bytes: 4757.773200
-	Average number of small blocks: 0.130100
-	Failed allocations: 776
+	Test took 3.31ms.
+	Average hole size: 2234.963000
+	Average largest free block: 3422.282300
+	Average allocated bytes: 4761.463900
+	Average number of small blocks: 0.100800
+	Failed allocations: 753
 Running randomized tests: pool size == 10000, fill ratio == 0.500000, block size is from 1 to 3000, 10000 iterations
 	=== best ===
-	Test took 2.66ms.
-	Average hole size: 2073.533600
-	Average largest free block: 3531.519800
-	Average allocated bytes: 4993.221100
-	Average number of small blocks: 0.453600
-	Failed allocations: 102
+	Test took 2.60ms.
+	Average hole size: 2120.154500
+	Average largest free block: 3557.981200
+	Average allocated bytes: 5012.772900
+	Average number of small blocks: 0.456700
+	Failed allocations: 80
 	=== worst ===
-	Test took 2.88ms.
-	Average hole size: 2047.063500
-	Average largest free block: 3000.063000
-	Average allocated bytes: 4887.654200
-	Average number of small blocks: 0.203100
-	Failed allocations: 392
+	Test took 2.77ms.
+	Average hole size: 2075.861600
+	Average largest free block: 3036.733800
+	Average allocated bytes: 4906.190500
+	Average number of small blocks: 0.201000
+	Failed allocations: 345
 	=== first ===
-	Test took 2.43ms.
-	Average hole size: 2126.209600
-	Average largest free block: 3436.226400
-	Average allocated bytes: 4990.309000
-	Average number of small blocks: 0.335500
-	Failed allocations: 150
+	Test took 2.36ms.
+	Average hole size: 2132.140000
+	Average largest free block: 3404.222100
+	Average allocated bytes: 4988.422600
+	Average number of small blocks: 0.326300
+	Failed allocations: 153
 	=== next ===
-	Test took 3.62ms.
-	Average hole size: 2105.966800
-	Average largest free block: 3370.270300
-	Average allocated bytes: 4682.188100
-	Average number of small blocks: 0.279700
-	Failed allocations: 783
+	Test took 3.85ms.
+	Average hole size: 2228.764700
+	Average largest free block: 3455.015900
+	Average allocated bytes: 4661.310600
+	Average number of small blocks: 0.262100
+	Failed allocations: 776
 Running randomized tests: pool size == 10000, fill ratio == 0.500000, block size is from 1 to 4000, 10000 iterations
 	=== best ===
-	Test took 2.28ms.
-	Average hole size: 2602.589400
-	Average largest free block: 3798.343300
-	Average allocated bytes: 4899.140700
-	Average number of small blocks: 0.298200
-	Failed allocations: 299
+	Test took 2.33ms.
+	Average hole size: 2599.553300
+	Average largest free block: 3836.284500
+	Average allocated bytes: 4945.507200
+	Average number of small blocks: 0.340600
+	Failed allocations: 269
 	=== worst ===
-	Test took 2.39ms.
-	Average hole size: 2608.998300
-	Average largest free block: 3518.843300
-	Average allocated bytes: 4778.220700
-	Average number of small blocks: 0.171400
-	Failed allocations: 549
+	Test took 2.62ms.
+	Average hole size: 2589.916400
+	Average largest free block: 3517.420000
+	Average allocated bytes: 4773.623400
+	Average number of small blocks: 0.199300
+	Failed allocations: 573
 	=== first ===
-	Test took 2.34ms.
-	Average hole size: 2637.541700
-	Average largest free block: 3737.031400
-	Average allocated bytes: 4857.158600
-	Average number of small blocks: 0.259600
-	Failed allocations: 377
+	Test took 2.56ms.
+	Average hole size: 2682.818200
+	Average largest free block: 3774.097400
+	Average allocated bytes: 4881.381700
+	Average number of small blocks: 0.267400
+	Failed allocations: 349
 	=== next ===
-	Test took 3.54ms.
-	Average hole size: 2881.600400
-	Average largest free block: 3965.719500
-	Average allocated bytes: 4494.343800
-	Average number of small blocks: 0.210600
-	Failed allocations: 926
+	Test took 3.66ms.
+	Average hole size: 2805.848600
+	Average largest free block: 3871.099500
+	Average allocated bytes: 4528.968400
+	Average number of small blocks: 0.207200
+	Failed allocations: 952
 Running randomized tests: pool size == 10000, fill ratio == 0.500000, block size is from 1 to 5000, 10000 iterations
 	=== best ===
-	Test took 2.81ms.
-	Average hole size: 2999.329000
-	Average largest free block: 4068.174500
-	Average allocated bytes: 4816.156100
-	Average number of small blocks: 0.298800
-	Failed allocations: 533
+	Test took 2.62ms.
+	Average hole size: 3025.375300
+	Average largest free block: 4080.540200
+	Average allocated bytes: 4800.782000
+	Average number of small blocks: 0.292100
+	Failed allocations: 524
 	=== worst ===
-	Test took 3.35ms.
-	Average hole size: 3044.281500
-	Average largest free block: 3876.729700
-	Average allocated bytes: 4636.994600
-	Average number of small blocks: 0.179300
-	Failed allocations: 821
+	Test took 2.31ms.
+	Average hole size: 3136.841500
+	Average largest free block: 3938.760900
+	Average allocated bytes: 4636.274700
+	Average number of small blocks: 0.178500
+	Failed allocations: 777
 	=== first ===
-	Test took 2.26ms.
-	Average hole size: 3120.945600
-	Average largest free block: 4067.632600
-	Average allocated bytes: 4752.476400
-	Average number of small blocks: 0.254400
-	Failed allocations: 596
+	Test took 2.74ms.
+	Average hole size: 3119.854900
+	Average largest free block: 4066.248600
+	Average allocated bytes: 4771.115700
+	Average number of small blocks: 0.262500
+	Failed allocations: 562
 	=== next ===
-	Test took 2.96ms.
-	Average hole size: 3387.986900
-	Average largest free block: 4346.272300
-	Average allocated bytes: 4360.664300
-	Average number of small blocks: 0.210100
-	Failed allocations: 1113
+	Test took 13.39ms.
+	Average hole size: 3376.956600
+	Average largest free block: 4326.172900
+	Average allocated bytes: 4346.829800
+	Average number of small blocks: 0.198700
+	Failed allocations: 1124
 Running randomized tests: pool size == 10000, fill ratio == 0.500000, block size is from 1000 to 1000, 10000 iterations
 	=== best ===
-	Test took 1.21ms.
-	Average hole size: 4298.100000
-	Average largest free block: 5099.900000
+	Test took 1.07ms.
+	Average hole size: 4295.100000
+	Average largest free block: 5098.900000
 	Average allocated bytes: 4499.200000
 	Average number of small blocks: 0.000000
 	Failed allocations: 0
 	=== worst ===
-	Test took 1.90ms.
-	Average hole size: 1867.871000
-	Average largest free block: 2585.300000
+	Test took 1.86ms.
+	Average hole size: 1850.066000
+	Average largest free block: 2566.700000
 	Average allocated bytes: 4499.200000
 	Average number of small blocks: 0.000000
 	Failed allocations: 0
 	=== first ===
-	Test took 1.14ms.
-	Average hole size: 4298.100000
-	Average largest free block: 5099.900000
+	Test took 1.11ms.
+	Average hole size: 4295.100000
+	Average largest free block: 5098.900000
 	Average allocated bytes: 4499.200000
 	Average number of small blocks: 0.000000
 	Failed allocations: 0
 	=== next ===
-	Test took 2.34ms.
-	Average hole size: 2361.943500
-	Average largest free block: 3385.600000
-	Average allocated bytes: 4488.000000
+	Test took 2.38ms.
+	Average hole size: 2302.432000
+	Average largest free block: 3312.200000
+	Average allocated bytes: 4489.000000
 	Average number of small blocks: 0.000000
-	Failed allocations: 45
+	Failed allocations: 41
 Running randomized tests: pool size == 10000, fill ratio == 0.750000, block size is from 1 to 1000, 10000 iterations
 	=== best ===
-	Test took 8.67ms.
-	Average hole size: 311.111500
-	Average largest free block: 1034.797900
-	Average allocated bytes: 7425.999300
-	Average number of small blocks: 3.647400
-	Failed allocations: 392
+	Test took 9.27ms.
+	Average hole size: 301.794000
+	Average largest free block: 1006.631800
+	Average allocated bytes: 7429.616600
+	Average number of small blocks: 3.692800
+	Failed allocations: 415
 	=== worst ===
-	Test took 11.53ms.
-	Average hole size: 276.909400
-	Average largest free block: 599.495400
-	Average allocated bytes: 7062.546200
-	Average number of small blocks: 2.369300
-	Failed allocations: 2236
+	Test took 13.31ms.
+	Average hole size: 269.512700
+	Average largest free block: 587.480600
+	Average allocated bytes: 7064.088500
+	Average number of small blocks: 2.311700
+	Failed allocations: 2347
 	=== first ===
-	Test took 8.71ms.
-	Average hole size: 297.001400
-	Average largest free block: 867.207000
-	Average allocated bytes: 7367.898900
-	Average number of small blocks: 3.146900
-	Failed allocations: 803
+	Test took 15.00ms.
+	Average hole size: 295.183700
+	Average largest free block: 871.354800
+	Average allocated bytes: 7370.431900
+	Average number of small blocks: 3.157000
+	Failed allocations: 805
 	=== next ===
-	Test took 9.80ms.
-	Average hole size: 297.576900
-	Average largest free block: 827.558100
-	Average allocated bytes: 7232.355200
-	Average number of small blocks: 2.997600
-	Failed allocations: 1561
+	Test took 11.17ms.
+	Average hole size: 286.822000
+	Average largest free block: 788.202500
+	Average allocated bytes: 7227.573300
+	Average number of small blocks: 2.948100
+	Failed allocations: 1618
 Running randomized tests: pool size == 10000, fill ratio == 0.750000, block size is from 500 to 1000, 10000 iterations
 	=== best ===
-	Test took 6.00ms.
-	Average hole size: 457.083700
-	Average largest free block: 1153.021400
-	Average allocated bytes: 7416.475800
-	Average number of small blocks: 1.441400
-	Failed allocations: 407
+	Test took 6.10ms.
+	Average hole size: 457.259400
+	Average largest free block: 1157.137700
+	Average allocated bytes: 7429.821200
+	Average number of small blocks: 1.408400
+	Failed allocations: 380
 	=== worst ===
-	Test took 6.67ms.
-	Average hole size: 480.205900
-	Average largest free block: 940.712800
-	Average allocated bytes: 7258.631500
-	Average number of small blocks: 0.683700
-	Failed allocations: 1170
+	Test took 7.44ms.
+	Average hole size: 477.847700
+	Average largest free block: 938.170100
+	Average allocated bytes: 7270.488900
+	Average number of small blocks: 0.692100
+	Failed allocations: 1125
 	=== first ===
-	Test took 5.70ms.
-	Average hole size: 469.248200
-	Average largest free block: 1050.196200
-	Average allocated bytes: 7363.471000
-	Average number of small blocks: 1.098400
-	Failed allocations: 663
+	Test took 12.42ms.
+	Average hole size: 463.372200
+	Average largest free block: 1037.642900
+	Average allocated bytes: 7359.172900
+	Average number of small blocks: 1.130300
+	Failed allocations: 698
 	=== next ===
-	Test took 6.81ms.
-	Average hole size: 508.784200
-	Average largest free block: 1132.047600
-	Average allocated bytes: 7193.576200
-	Average number of small blocks: 0.965700
-	Failed allocations: 1508
+	Test took 6.84ms.
+	Average hole size: 505.089500
+	Average largest free block: 1116.210300
+	Average allocated bytes: 7192.151200
+	Average number of small blocks: 0.960700
+	Failed allocations: 1505
 Running randomized tests: pool size == 10000, fill ratio == 0.750000, block size is from 1 to 2000, 10000 iterations
 	=== best ===
-	Test took 6.51ms.
-	Average hole size: 577.768800
-	Average largest free block: 1416.480500
-	Average allocated bytes: 7127.437700
-	Average number of small blocks: 1.966100
-	Failed allocations: 1226
+	Test took 6.48ms.
+	Average hole size: 575.558800
+	Average largest free block: 1424.175200
+	Average allocated bytes: 7108.953400
+	Average number of small blocks: 2.016900
+	Failed allocations: 1254
 	=== worst ===
-	Test took 8.13ms.
-	Average hole size: 593.190000
-	Average largest free block: 1152.393000
-	Average allocated bytes: 6714.328400
-	Average number of small blocks: 1.191000
-	Failed allocations: 2351
+	Test took 8.21ms.
+	Average hole size: 610.096600
+	Average largest free block: 1162.529200
+	Average allocated bytes: 6708.644400
+	Average number of small blocks: 1.003100
+	Failed allocations: 2365
 	=== first ===
-	Test took 6.73ms.
-	Average hole size: 584.276500
-	Average largest free block: 1333.330200
-	Average allocated bytes: 6994.195500
-	Average number of small blocks: 1.726400
-	Failed allocations: 1639
+	Test took 19.48ms.
+	Average hole size: 569.101700
+	Average largest free block: 1331.495300
+	Average allocated bytes: 6990.397700
+	Average number of small blocks: 1.744000
+	Failed allocations: 1611
 	=== next ===
-	Test took 7.23ms.
-	Average hole size: 624.724800
-	Average largest free block: 1386.227300
-	Average allocated bytes: 6871.181400
-	Average number of small blocks: 1.463300
-	Failed allocations: 2011
+	Test took 8.63ms.
+	Average hole size: 609.015200
+	Average largest free block: 1362.774400
+	Average allocated bytes: 6836.208500
+	Average number of small blocks: 1.504900
+	Failed allocations: 2107
 Running randomized tests: pool size == 10000, fill ratio == 0.900000, block size is from 1 to 500, 10000 iterations
 	=== best ===
-	Test took 24.75ms.
-	Average hole size: 72.118800
-	Average largest free block: 283.123200
-	Average allocated bytes: 8581.989300
-	Average number of small blocks: 18.734000
-	Failed allocations: 2851
+	Test took 23.14ms.
+	Average hole size: 74.617800
+	Average largest free block: 285.560000
+	Average allocated bytes: 8569.704700
+	Average number of small blocks: 18.413600
+	Failed allocations: 2844
 	=== worst ===
-	Test took 22.87ms.
-	Average hole size: 113.310500
-	Average largest free block: 257.095600
-	Average allocated bytes: 7382.078600
-	Average number of small blocks: 7.307700
-	Failed allocations: 3314
+	Test took 28.99ms.
+	Average hole size: 116.451200
+	Average largest free block: 262.410000
+	Average allocated bytes: 7431.980600
+	Average number of small blocks: 7.550800
+	Failed allocations: 3305
 	=== first ===
-	Test took 23.71ms.
-	Average hole size: 72.394900
-	Average largest free block: 262.797600
-	Average allocated bytes: 8369.343400
-	Average number of small blocks: 18.514900
-	Failed allocations: 3212
+	Test took 28.64ms.
+	Average hole size: 79.165600
+	Average largest free block: 262.770700
+	Average allocated bytes: 8380.663700
+	Average number of small blocks: 17.191600
+	Failed allocations: 3185
 	=== next ===
-	Test took 22.37ms.
-	Average hole size: 79.616200
-	Average largest free block: 267.538600
-	Average allocated bytes: 8245.302300
-	Average number of small blocks: 15.732600
-	Failed allocations: 3279
+	Test took 31.32ms.
+	Average hole size: 81.770800
+	Average largest free block: 267.719200
+	Average allocated bytes: 8240.114600
+	Average number of small blocks: 17.399100
+	Failed allocations: 3288
